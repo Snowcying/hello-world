@@ -95,7 +95,7 @@ class Computer extends Component
         super()
         this.state={status:'off'}
     }
-
+👍
     //OnclickEvent()
     //{
     //    this.setState(

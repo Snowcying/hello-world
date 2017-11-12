@@ -1,0 +1,21 @@
+/**
+ * Created by 陈鑫一 on 2017/11/12.
+ */
+
+import React,{Component} from 'react'
+
+class Comment extends Component
+{
+    render()
+    {
+        return(
+            <div className='comment'>
+                <div className='comment-user'>
+                    <span>{this.props.comment.username}:{this.props.comment.content}</span>
+                </div>
+            </div>
+        )
+    }
+}
+
+export default Comment

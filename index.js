@@ -3,7 +3,18 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import  CommentApp from './CommentApp'
 
+class Index extends Component
+{
+    render()
+    {
+        return(
+                <CommentApp />
+            )
+
+    }
+}
+
 ReactDOM.render(
-    <CommentApp />,
+    <Index />,
     document.getElementById('root')
 )
